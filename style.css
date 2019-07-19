@@ -1,0 +1,39 @@
+body{
+	background-color: #d9cbd7;
+}
+
+#intro{
+	font-family: 'Germania One', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+button{
+	width: 100px;
+	font-family: 'Germania One', cursive;
+	font-size: 20px;
+	text-align: right;
+}
+#next{
+	font-family: 'Germania One', cursive;
+	font-size: 40px;
+}
+#board{
+	height: 700px;
+	width: 700px;
+	border: 2px solid;
+	margin-left: 300px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr;
+	grid-gap: auto;
+}
+.box{
+	height: 100%;
+	width: 100%;
+	border: solid;
+	font-size: 100px;
+	color: gold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
